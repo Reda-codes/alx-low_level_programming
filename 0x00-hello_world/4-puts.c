@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * main - Prints str1
+ */
 int main(void)
 {
 
