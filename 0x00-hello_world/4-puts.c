@@ -2,7 +2,7 @@
 
 /**
  * main - Prints str1
- * return: return program's execution status
+ * Return: return program's execution status
  */
 int main(void)
 {
