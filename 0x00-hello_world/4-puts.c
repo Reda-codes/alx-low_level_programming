@@ -10,6 +10,5 @@ int main(void)
 
 	puts(str1);
 
-	/*used to return a value from the function or stop the execution of the function. */
 	return (0);
 }
