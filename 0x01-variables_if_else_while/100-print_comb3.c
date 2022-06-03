@@ -4,6 +4,7 @@
  * main - Prints all possible different combinations of two digits
  * i: initial number
  * k: initial number
+ * g: updated value
  * Return: return program's execution status
  */
 int main(void)
@@ -11,10 +12,11 @@ int main(void)
 
 	int i;
 	int k;
+	int g = 49;
 
 	for (i = 48; i <= 56; ++i)
 	{
-		for (k = 48; k <= 57; ++k)
+		for (k = g; k <= 57; ++k)
 		{
 			putchar(i);
 			putchar(k);
@@ -25,6 +27,7 @@ int main(void)
 			}
 
 		}
+		g++;
 	}
 	return (0);
 }
