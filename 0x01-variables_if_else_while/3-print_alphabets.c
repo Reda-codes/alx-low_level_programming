@@ -10,6 +10,7 @@ int main(void)
 {
 	int a = 'a';
 	int A = 'A';
+
 	while (a <= 'z')
 	{
 
