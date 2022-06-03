@@ -4,8 +4,9 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - checks if number is positive
+ * main - checks if number is greater tha 5 or 0
  * n: The number to be checked
+ * b: Last digit of n
  * Return: return program's execution status
  */
 int main(void)
