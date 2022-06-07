@@ -2,14 +2,14 @@
 #include <ctype.h>
 /* betty style doc for function main goes there */
 /**
- * _islower - Checks for lowercase
+ * _isalpha  - Checks for alphabet
  * @c: input
- * Return: 1 if letter is lowercase or 0 if not
+ * Return: 1 if alphabet or 0 if not
  */
-int _islower(int c)
+int _isalpha(int c)
 
 	{
-	if (islower(c) == 0)
+	if (isalpha(c) == 0)
 	{
 		return (0);
 	}
@@ -18,3 +18,4 @@ int _islower(int c)
 		return (1);
 	};
 };
+
