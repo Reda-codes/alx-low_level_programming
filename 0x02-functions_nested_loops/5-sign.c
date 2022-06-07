@@ -6,21 +6,21 @@
  * Return: returns the result of the check
  */
 int print_sign(int n)
+{
+	if (n > 0)
+	{
+		putchar(43);
 
-	{
-	if (n < 0)
-	{
-		return (-1);
-		printf("-");
 	}
-	else if (n > 0)
+	else if (n == 0)
 	{
-		return (1);
-		printf("+");
-	} else
-	{
-		 return (0);
-		 printf(0);
-	}
-};
+		putchar(48);
 
+	}
+	else if (n < 0)
+	{
+		putchar(45);
+
+	};
+
+}
