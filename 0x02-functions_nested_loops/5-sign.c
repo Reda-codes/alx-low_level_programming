@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * print_sign  - Checks for number sign
