@@ -6,7 +6,7 @@
  * i: loop init
  * Return: return program's execution status
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 
 	int i;

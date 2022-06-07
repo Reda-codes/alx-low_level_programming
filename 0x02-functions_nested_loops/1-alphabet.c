@@ -5,16 +5,16 @@
  * a: alphabet
  * Return: return program's execution status
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-        int a = 'a';
+	int a = 'a';
 
-        while (a <= 'z')
-        {
+	while (a <= 'z')
+	{
 
-                putchar(a);
-                a += 1;
-        }
-        putchar('\n');
-        return (0);
+		putchar(a);
+		a += 1;
+	}
+	putchar('\n');
+	return (0);
 }
