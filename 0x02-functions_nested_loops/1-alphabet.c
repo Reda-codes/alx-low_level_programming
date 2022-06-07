@@ -5,7 +5,7 @@
  * a: alphabet
  * Return: return program's execution status
  */
-print_alphabet(void)
+int print_alphabet(void)
 {
 	int a = 'a';
 
