@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * _abs - Prints the absolute value of an integer.
@@ -7,6 +8,8 @@
  */
 int _abs(int n)
 {
-	printf("%d", abs(n));
+	int v =  abs(n);
+
+	printf("%d", v);
 	return (0);
 }
