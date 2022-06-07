@@ -11,6 +11,6 @@ int _abs(int n)
 {
 	int v =  abs(n);
 
-	printf("%d", v);
+	printf("%i", v);
 	return (0);
 }
