@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /* betty style doc for function main goes there */
 /**
  * _abs - Prints the absolute value of an integer.
