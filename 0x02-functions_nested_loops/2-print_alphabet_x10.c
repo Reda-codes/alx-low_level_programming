@@ -1,12 +1,12 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Prints the alphabet
+ * print_alphabet_x10 - Prints the alphabet
  * a: alphabet
  * i: loop init
  * Return: return program's execution status
  */
-int main(void)
+void print_alphabet_x10(void);
 {
 
 	int i;
