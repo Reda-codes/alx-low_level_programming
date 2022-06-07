@@ -3,13 +3,18 @@
 /* betty style doc for function main goes there */
 /**
  * print_last_digit - Prints last number
- * @v: input
+ * @n: input
+ * v : n last digit
  * Return: last digit
  */
-int print_last_digit(int v)
+int print_last_digit(int n)
 {
+	int v
+
+	v = n % 10;
+
 	if (v < 0)
-		v = v * -1;
-	_putchar((v % 10) + '0');
-	return (v % 10);
+		n  = v *-1;
+	_putchar(v +'0');
+	return (v);
 }
