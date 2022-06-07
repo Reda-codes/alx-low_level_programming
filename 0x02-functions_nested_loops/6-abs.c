@@ -12,5 +12,4 @@ int _abs(int n)
 	int v =  abs(n);
 
 	printf("%d", v);
-	return (0);
 }
