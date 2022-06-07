@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 /* betty style doc for function main goes there */
 /**
@@ -11,6 +10,6 @@ int _abs(int n)
 {
 	int v =  abs(n);
 
-	printf("%i", v);
+	printf("%d", v);
 	return (0);
 }
