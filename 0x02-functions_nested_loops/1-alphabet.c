@@ -5,7 +5,7 @@
  * a: alphabet
  * Return: return program's execution status
  */
-void print_alphabet(void)
+print_alphabet(void)
 {
 	int a = 'a';
 
@@ -16,5 +16,5 @@ void print_alphabet(void)
 		a += 1;
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }
