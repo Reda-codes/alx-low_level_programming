@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main - the FizzBuzz challenge
