@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
  * more_numbers - Prints numbers from 0 to 14 ten times
  * a: initial number
  * c: columns
- * Return: return program's execution status
+ * Return: void
  */
 void more_numbers(void)
 {
