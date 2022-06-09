@@ -6,18 +6,18 @@
  * @n: the number of times the character \ should be printed
  * Return: void
  */
-void print_square(int n)
+void print_square(int size)
 {
 	int i;
 	int g;
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < size; i++)
 
 			for (g = 0 ; g < i; g++)
 			{
