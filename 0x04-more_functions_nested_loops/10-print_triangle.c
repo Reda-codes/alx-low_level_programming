@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
@@ -24,7 +23,6 @@ void print_triangle(int size);
 			{
 				_putchar(32);
 			}
-			
 			for (k = 0; k <= i; k++)
 			{
 				_putchar(35);
