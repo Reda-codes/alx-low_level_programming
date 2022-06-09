@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * print_numbers - Prints numbers from 0 to 9
@@ -11,9 +12,9 @@ void print_numbers(void)
 
 	while (a <= 9)
 	{
-		printf("%i", a);
+		_putchar(a);
 		a++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
