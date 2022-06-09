@@ -3,7 +3,7 @@
 /* betty style doc for function main goes there */
 /**
  * print_square - function that prints a square, followed by a new line.
- * @n: the number of times the character \ should be printed
+ * @size: the number of times and lines the character # should be printed
  * Return: void
  */
 void print_square(int size)
