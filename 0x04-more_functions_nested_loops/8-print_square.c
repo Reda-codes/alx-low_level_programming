@@ -21,7 +21,7 @@ void print_square(int n)
 
 			for (g = 0 ; g < n; g++)
 			{
-				putchar(35);
+				_putchar(35);
 			}
 			_putchar('\n');
 		}
