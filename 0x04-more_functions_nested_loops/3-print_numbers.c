@@ -4,16 +4,15 @@
 /**
  * print_numbers - Prints numbers from 0 to 9
  * a: initial number
- * Return: return program's execution status
+ * Return: void
  */
 void print_numbers(void)
 {
-	int a = 0;
+	int a;
 
-	while (a <= 9)
+	for (a = 0; n <= 9; n++)
 	{
 		_putchar(a);
-		a++;
 	}
 	_putchar('\n');
 }
