@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /* betty style doc for function main goes there */
 /**
  * _isdigit - Checks if input is a digit
