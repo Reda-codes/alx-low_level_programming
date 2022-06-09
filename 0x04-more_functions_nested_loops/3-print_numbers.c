@@ -3,7 +3,7 @@
 /* betty style doc for function main goes there */
 /**
  * print_numbers - Prints numbers from 0 to 9
- * a: initial number
+ * i: initial number
  * Return: void
  */
 void print_numbers(void)
