@@ -2,7 +2,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - the FizzBuzz challenge
- * Return: void
+ * Return: return program's execution status
  */
 int main(void)
 {
@@ -34,4 +34,5 @@ int main(void)
 
 	}
 	printf("\n");
+	return (0);
 }
