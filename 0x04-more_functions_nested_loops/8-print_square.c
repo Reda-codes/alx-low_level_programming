@@ -2,11 +2,11 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * print_diagonal - function that draws a diagonal line on the terminal.
+ * print_square - function that prints a square, followed by a new line.
  * @n: the number of times the character \ should be printed
  * Return: void
  */
-void print_diagonal(int n)
+void print_square(int n)
 {
 	int i;
 	int g;
@@ -18,12 +18,11 @@ void print_diagonal(int n)
 	else
 	{
 		for (i = 0; i < n; i++)
-		{
-			for (g = 0; g < i; g++)
+
+			for (g = 0 ; g < n; g++)
 			{
-				_putchar(32);
+				putchar(35);
 			}
-			_putchar(92);
 			_putchar('\n');
 		}
 	}
