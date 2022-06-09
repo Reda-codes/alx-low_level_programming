@@ -3,23 +3,20 @@
 /* betty style doc for function main goes there */
 /**
  * print_most_numbers - Prints numbers from 0 to 9 not including 2 & 4
- * a: initial number
+ * i: initial number
  */
 void print_most_numbers(void)
 {
-	int a = 0;
+	int i;
 
-	while (a <= 9)
-	{
-		if (a == 2 || a == 4)
+		for (i = '0'; i <= '9'; i++)
 		{
-			a++;
+			if (i == '2' || i == '4')
+			{
+				continue;
+			}
+
+			_putchar(i);
 		}
-		else
-		{
-			_putchar(a);
-			a++;
-		}
-	}
 	_putchar('\n');
 }
