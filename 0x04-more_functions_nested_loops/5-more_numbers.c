@@ -23,5 +23,4 @@ void more_numbers(void)
 		a =  0;
 		c++;
 	}
-	return (0);
 }
