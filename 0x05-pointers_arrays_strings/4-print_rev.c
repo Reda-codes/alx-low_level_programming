@@ -11,11 +11,11 @@
 void print_rev(char *s)
 {
 	int i;
-	char arry[strlen(str)];
+	char arry[strlen(s)];
 
-	for (i = 1; i <= strlen(str); i++)
+	for (i = 1; i <= strlen(s); i++)
 	{
-		arry[i] = str[strlen(str) - i];
+		arry[i] = str[strlen(s) - i];
 	}
 
 	puts(arry);
