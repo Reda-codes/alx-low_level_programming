@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /* betty style doc for function main goes there */
 /**
  * _strlen - function that returns the length of a string
