@@ -15,12 +15,15 @@ void rev_string(char *s)
 	int z =  strlen(s);
 	char ary[z];
 
-	for (i = 1; i <= z; i++)
+	for (i = 0; i <= z; i++)
 	{
-		ary[i] = s[z - i];
+		ary[i] = s[i];
 	}
 
-	*s = *ary;
+	for (i = 1; i <= z + 1; i++)
+	{
+		s[i - 1] = ary[z - i];
+	}
 }
 
 
