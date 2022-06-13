@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /* betty style doc for function main goes there */
 /**
  * puts2 - function that prints every other character of a string,
