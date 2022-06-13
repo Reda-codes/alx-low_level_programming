@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /* betty style doc for function main goes there */
 /**
  * print_rev - function that prints a string, in reverse.
