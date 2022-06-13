@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdlib.h>
 /* betty style doc for function main goes there */
 /**
  * rev_string - function that reverses a string.
