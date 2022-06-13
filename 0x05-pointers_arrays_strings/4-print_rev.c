@@ -3,18 +3,19 @@
 /* betty style doc for function main goes there */
 /**
  * print_rev - function that prints a string, in reverse.
- * @s: pointer
+ * @s: string
  * i: loop init value
- * arry reversed array
+ * z:string length
  * Return: void
  */
 void print_rev(char *s)
 {
 	int i;
+	int z =  strlen(s);
 
-	for (i = 1; i <= strlen(s); i++)
+	for (i = 1; i <= z; i++)
 	{
-		_putchar(s[strlen(s) - i]);
+		_putchar(s[z - i]);
 	}
 
 	_putchar('\n');
