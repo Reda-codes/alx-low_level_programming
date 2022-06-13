@@ -13,22 +13,26 @@
 void puts_half(char *str)
 {
 	int z = strlen(str);
-	int i = z/2;
+	int i = z / 2;
 	int t;
 
-	while (i < z)
+	if (z % 2 == 0)
 	{
-		if (z % 2 == 0)
+		while (i < z)
 		{
 			t = str[i];
-			_putchar(t);
+			putchar(t);
 			i++;
 		}
-		else
+	}
+	else
+	{
+		i = (z - 1) / 2;
+		while (i < z)
 		{
-			t = str[(z - 1) / 2];
+			t = str[i];
 			putchar(t);
-			break;
+			i++;
 		}
 	}
 	_putchar('\n');
