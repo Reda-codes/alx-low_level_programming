@@ -21,7 +21,7 @@ void puts_half(char *str)
 		while (i < z)
 		{
 			t = str[i];
-			putchar(t);
+			_putchar(t);
 			i++;
 		}
 		_putchar('\n');
@@ -32,7 +32,7 @@ void puts_half(char *str)
 		while (i < z)
 		{
 			t = str[i];
-			putchar(t);
+			_putchar(t);
 			i++;
 		}
 		_putchar('\n');
