@@ -15,7 +15,8 @@ void rev_string(char *s)
 	int i;
 	int z =  strlen(s);
 	char *ary;
-	ary = (char*) malloc(z * sizeof(char));
+
+	ary = (char *) malloc(z * sizeof(char));
 
 	for (i = 0; i <= z; i++)
 	{
