@@ -15,7 +15,7 @@ void print_rev(char *s)
 
 	for (i = 1; i <= strlen(s); i++)
 	{
-		arry[i] = str[strlen(s) - i];
+		arry[i] = s[strlen(s) - i];
 	}
 
 	puts(arry);
