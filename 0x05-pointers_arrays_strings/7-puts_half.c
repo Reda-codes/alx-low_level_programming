@@ -18,7 +18,7 @@ void puts_half(char *str)
 
 	if (z % 2 == 0)
 	{
-		while (i < z)
+		while (i <= z)
 		{
 			t = str[i];
 			_putchar(t);
@@ -29,7 +29,7 @@ void puts_half(char *str)
 	else
 	{
 		i = (z - 1) / 2;
-		while (i < z)
+		while (i <= z)
 		{
 			t = str[i];
 			_putchar(t);
