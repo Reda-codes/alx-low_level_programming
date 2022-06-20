@@ -12,7 +12,7 @@ void print_chessboard(char (*a)[8])
 	{
 		for (int j = 0; j < 8; j++)
 		{
-			_putchar(a[i][j]);
+			_putchar(*(*(i + a) + j));
 		}
 		_putchar('\n');
 	}
