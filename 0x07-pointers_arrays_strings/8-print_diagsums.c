@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
  * print_diagsums -  function that prints the sum of the two diagonals
