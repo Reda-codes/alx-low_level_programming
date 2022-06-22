@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <math.h>
 /* betty style doc for function main goes there */
 /**
  * _pow_recursion - function that returns the value of x
