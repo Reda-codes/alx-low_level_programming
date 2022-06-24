@@ -10,6 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int s = 0;
 
 	if (argc == 1)
 	{
@@ -26,12 +27,10 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				int s;
-
 				s += atoi(argv[i]);
-				printf("%d\n", s);
 			}
 		}
+		printf("%d\n", s);
 	}
 	return (0);
 }
