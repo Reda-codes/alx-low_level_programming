@@ -11,7 +11,13 @@ int main(int argc, char *argv[])
 {
 	if (argc == 3)
 	{
-		printf("%s\n", argv[2] * argv[3]);
+		int r = argv[2] * argv[3];
+
+		printf("%d\n", r);
 	}
-	return (0);
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 }
