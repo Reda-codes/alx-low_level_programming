@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
@@ -14,13 +16,13 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		printf("0\n")
+		printf("0\n");
 	}
 	else
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if (isdigit(atoi(argv[i]) == 0))
+			if (isdigit(argv[i]) == 0)
 			{
 				printf("Error");
 				return (1);
