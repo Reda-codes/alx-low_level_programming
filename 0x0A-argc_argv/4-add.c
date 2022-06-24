@@ -11,28 +11,25 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	int s = 0;
+	int i;
+	int j;
 
-	if (argc == 1)
+	for (i = 1; i < argc; i++)
 	{
-		printf("0\n");
-	}
-	else
-	{
-		for (i = 0; i < argc; i++)
+		for (j = 0; argv[i][j]; j++)
 		{
-			if (isdigit(argv[i]) == 0)
+			if (isdigit(argv[i][j]) == 0)
 			{
-				printf("Error");
+				printf("Error\n");
 				return (1);
 			}
-			else
-			{
-				s += atoi(argv[i]);
-			}
 		}
-		printf("%d\n", s);
 	}
+	for (i = 1; i < argc; i++)
+	{
+		s += atoi(argv[i]);
+	}
+	printf("%d\n", s);
 	return (0);
 }
