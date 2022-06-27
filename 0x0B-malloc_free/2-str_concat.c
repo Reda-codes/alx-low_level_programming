@@ -22,8 +22,8 @@ char *str_concat(char *s1, char *s2)
 
 	if (s2 == NULL)
 	{
-		s1 = malloc(0);
-		s1[0] = '\0';
+		s2 = malloc(0);
+		s2[0] = '\0';
 	}
 
 
