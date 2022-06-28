@@ -31,7 +31,7 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < rows; i++)
 	{
 		array[i] = malloc(cols * sizeof(int));
-		if (arr[i] == NULL)
+		if (array[i] == NULL)
 		{
 			for (i = i - 1; i >= 0; i--)
 			{
