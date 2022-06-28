@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
@@ -13,7 +12,7 @@
 int **alloc_grid(int width, int height)
 {
 	int rows = height;
-	int i;
+	int i, j;
 	int cols = width;
 	int **array = malloc(rows * sizeof(int *));
 
@@ -32,6 +31,19 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < rows; i++)
 	{
 		array[i] = malloc(cols * sizeof(int));
+		if (arr[i] == NULL)
+		{
+			for (i = i - 1; i >= 0; i--)
+			{
+				free(array[i]);
+			}
+			free(array);
+			return (NULL);
+		}
+		for (j = 0; j < cols; j++)
+		{
+			array[i][j] = 0;
+		}
 	}
 	return (array);
 }
