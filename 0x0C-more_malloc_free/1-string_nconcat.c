@@ -1,5 +1,6 @@
+#include <string.h>
 #include <stdlib.h>
-#include <limits.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * malloc_checked - function that allocates memory using malloc.
