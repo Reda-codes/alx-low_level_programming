@@ -3,7 +3,7 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * malloc_checked - function that allocates memory using malloc.
+ * string_nconcat - function that allocates memory using malloc.
  * @s1: string one
  * @s2: string two
  * @n: number of bytes of s2
