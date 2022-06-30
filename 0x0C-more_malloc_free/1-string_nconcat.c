@@ -21,30 +21,36 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = malloc(0);
 		s1[0] = '\0';
 	}
-
 	if (s2 == NULL)
 	{
 		s2 = malloc(0);
 		s2[0] = '\0';
 	}
-
-
-	ar = malloc(sizeof(char) * (strlen(s1) + n + 1));
-
-	if (ar == NULL)
+	if (n >= strlen(s2))
 	{
-		return (NULL);
-	}
+		ar = malloc(sizeof(char) * (strlen(s1) + strlen(s2) + 1));
+		if (ar == NULL)
+		{
+			return (NULL);
+		}
+		for (i = 0; i < strlen(s1); i++)
+			ar[i] = s1[i];
 
-	for (i = 0; i < strlen(s1); i++)
+		for (j = strlen(s1); j < strlen(s1) + strlen(s2); j++)
+			ar[j] = s2[j - strlen(s1)];
+	}
+	else
 	{
-		ar[i] = s1[i];
-	}
+		ar = malloc(sizeof(char) * (strlen(s1) + n + 1));
+		if (ar == NULL)
+		{
+			return (NULL);
+		}
+		for (i = 0; i < strlen(s1); i++)
+			ar[i] = s1[i];
 
-	for (j = strlen(s1); j < strlen(s1) + n; j++)
-	{
-		ar[j] = s2[j - strlen(s1)];
+		for (j = strlen(s1); j < strlen(s1) + n; j++)
+			ar[j] = s2[j - strlen(s1)];
 	}
-
 	return (ar);
 }
