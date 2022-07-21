@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+#include <stdio.h>
 
 /**
  * strln - function that calculates
@@ -28,11 +28,15 @@ int strln(const char *s)
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int bn = 0;
-	int ln = strln(b);
+	int ln;
 	int i;
 
 	if (b == NULL)
+	{
 		return (0);
+	}
+
+	ln = strln(b);
 
 	for (i = 0; i != ln; i++)
 	{
